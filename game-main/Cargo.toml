@@ -6,6 +6,9 @@ edition = "2021"
 [dependencies]
 bevy = "0.12.1"
 rand = "0.8.5"
+serde = "1"
+reqwest = { versio = "1", features = ["json"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 
 game-camera = { path = "../game-camera" }
 
